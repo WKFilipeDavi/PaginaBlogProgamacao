@@ -1,0 +1,108 @@
+body{
+    background-color: #cec8c8;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header{
+    height: 500px;
+    background-image: url(../imagens/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid transparent;
+    color: white;
+    text-align: center;
+    }
+
+header h1{
+    margin-top: 220px;
+    font-size: 46px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 1px black;
+}
+
+header p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(10, 10, 10, 0.65);
+}
+
+header ul{
+    text-align: right;
+    margin-top: -350px;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(119, 119, 119, 0.67);
+    padding: 10px;
+}
+
+a:hover{
+    background-color: rgba(119, 119, 119, 1); 
+}
+
+main section{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.bloco1{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.bloco2{
+    padding: 10px;
+    margin-top: 15px;
+    clear: left;
+}
+
+ .quad{
+     border: 1px blue groove ;
+     width: 32%;
+     float: left;
+     margin: 5px;
+     background-color: black;
+     color: white;
+}
+
+.quad img{
+    width: 100%;
+    display: block;
+}
+
+
+.bloco2 h2{
+    margin: 12px;
+    background-color: rgba(137, 127, 127, 0.38);
+    padding: 10px;
+    border-bottom: 2px #626262 groove;
+}
+
+.bloco2 p{
+    margin-left: 12px;
+    font-size: 18px;
+}
+
+footer{
+    height: 50px;
+    background-color: rgba(15, 14, 14, 0.59);
+    color: white;
+}
+
+footer p{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
